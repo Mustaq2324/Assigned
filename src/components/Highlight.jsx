@@ -4,24 +4,24 @@ import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
 // import video from "../assets/videos/4k.mp4";
 
 const Highlight = () => {
-  const videoRef = useRef(null);
+  // const videoRef = useRef(null);
 
-  useEffect(() => {
-    const videoElement = videoRef.current;
+  // useEffect(() => {
+  //   const videoElement = videoRef.current;
 
-    const playAndPause = async () => {
-      try {
-        await videoElement.play();
-        setTimeout(() => {
-          videoElement.pause();
-        }, 30000);
-      } catch (error) {
-        console.error('Error playing the video:', error);
-      }
-    };
+  //   const playAndPause = async () => {
+  //     try {
+  //       await videoElement.play();
+  //       setTimeout(() => {
+  //         videoElement.pause();
+  //       }, 30000);
+  //     } catch (error) {
+  //       console.error('Error playing the video:', error);
+  //     }
+  //   };
 
-    playAndPause();
-  }, []); // Empty dependency array to run the effect only once when the component mounts
+  //   playAndPause();
+  // }, []); // Empty dependency array to run the effect only once when the component mounts
 
   return (
     <section>
