@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlayCircle } from '@fortawesome/free-solid-svg-icons';
-import video from "../assets/videos/4k.mp4";
+// import video from "../assets/videos/4k.mp4";
 
 const Highlight = () => {
   const videoRef = useRef(null);
