@@ -34,10 +34,10 @@ const Highlight = () => {
         </div>
 
       </div>
-      <video width="1200" height="300" autoPlay muted loop ref={videoRef} className='ps-24 pt-8'>
+      {/* <video width="1200" height="300" autoPlay muted loop ref={videoRef} className='ps-24 pt-8'>
         <source src={video} type="video/mp4" />
 
-      </video>
+      </video> */}
     </section>
   );
 }
