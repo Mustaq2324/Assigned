@@ -30,7 +30,7 @@ const Highlight = () => {
 
         <div className='flex gap-8'>
           <h1 className='text-[#278BEA]'>Watch the film <FontAwesomeIcon icon={faPlayCircle} style={{ color: '#278BEA' }} /></h1>
-          <h1 className='text-[#278BEA]'>Watch the event </h1>
+          <h1 className='text-[#278BEA]'>Watch the events </h1>
         </div>
 
       </div>
