@@ -15,5 +15,4 @@ A green iguana, captured by the 48MP Main camera</p>
     </div>
   )
 }
-
 export default Camera
